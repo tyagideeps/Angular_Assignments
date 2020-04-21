@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./assignment1.component.css']
 })
 export class Assignment1Component {
-
+  inputTxt = " "
+  ShowInputText(inputData:any){
+    this.inputTxt = inputData.value
+  }
 }

@@ -1,4 +1,8 @@
-.your-code {
-  margin-top: 40px;
+.code {
+  margin-top: 2%;
   border: 2px solid darkmagenta;
+}
+
+.form-control{
+  margin-top: 1%;
 }
