@@ -9,7 +9,7 @@
   </ul>
   <div class="container code">
     <div class="field with input-container">
-      <input class="form-control" type="text" placeholder="Enter your text here" #inputText (keyup) = ShowInputText(inputText)>
+      <input class="form-control" type="text" placeholder="Enter your text here" #inputText (input) = ShowInputText(inputText)>
     </div>
     <h3 class="input-container">{{inputTxt}}</h3>
   </div>
